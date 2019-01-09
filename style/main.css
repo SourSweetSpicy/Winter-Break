@@ -1,7 +1,10 @@
 html {
     height: 100%;
-    width:100%;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
 }
+
 h1 {
     border: 5px solid #59FF57;
     font-size: 50px;
@@ -11,9 +14,16 @@ h1 {
 h2 {
     text-align: center;
     font-size: 30px;
+    background-color: lightgray;
+    font: bold;
+}
+h3{
+    text-align: center;
+    font-size: 27px;
+    font: bold;
 }
 
-}
+
 ul {
     list-style-type: none;
     margin: 0;
