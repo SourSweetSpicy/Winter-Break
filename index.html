@@ -20,8 +20,11 @@
             function blackmode () {
                 document.body.style.backgroundColor = "black";
                 document.body.style.color= "lightgrey";
-                document.body.h2.style.color= "black";
+				 var elems = document.getElementsByTagName("h2");
+    for (var i = 0; i<elems.length; i++) {
+        	elems[i].style.color = "black";
             }
+            }            
             blackboy.onclick=blackmode
         </script>
         <h2>
